@@ -1,0 +1,195 @@
+ахат
+штаим
+шалош
+арба
+шемеш 
+шеш
+шева
+шмонэ
+тэйша
+эсэр
+
+1 — אחת — ahat
+
+
+1 אחת
+2 שתים
+3 שלוש
+4 ארבע
+5 חמש
+6 שש
+7 שבע
+8 שמונה
+9 תשע
+10 עשר
+
+
+Functions
+
+1. Show a list of numbers (showListOfNumbers)
+2. Show 3 random numbers with translation and transcribtion (showThreeNumbersWithTranscription)
+3. Show 3 random numbers with translation (showThreeNumbersWithTranslation)
+4. Show a random name of number and check a number ((showRandomNumberAndCheck))
+5. Show a random number and check an answer in Hebrew
+
+
+
+v.1
+
+import static java.lang.Math.random;
+// import static java.util.Scanner;
+
+public class hebrewNumbersLearning {
+    public static int numbersOneToTen(){
+        return (int) (Math.random() * 10) + 1;
+    }
+
+    public static void main(String[] args) {
+        for(int i = 0; i < 3; i++){
+            int x = numbersOneToTen();
+            if(x == 1){
+                System.out.println("1 - ahat - אחת");
+            } else if(x == 2) {
+                System.out.println("2 - shtaim - שתים");
+            } else if(x == 3) {
+                System.out.println("3 - shalosh - שלוש");
+            } else if(x == 4) {
+                System.out.println("4 - arbah - ארבע");
+            } else if(x == 5) {
+                System.out.println("5 - hamesh - חמש");
+            } else if(x == 6) {
+                System.out.println("6 - shesh - שש");
+            } else if(x == 7) {
+                System.out.println("7 - sheva - שבע");
+            } else if(x == 8) {
+                System.out.println("8 - shmone - שמונה");
+            } else if(x == 9) {
+                System.out.println("9 - teisha - תשע");
+            } else if(x == 10) {
+                System.out.println("10 - eser - עשר");
+            } else {
+                System.out.println("some number");
+            }
+        }
+    }
+}
+
+
+
+// 1. Show a list of numbers
+
+            System.out.println("1 - ahat - אחת");
+            System.out.println("2 - shtaim - שתים");
+            System.out.println("3 - shalosh - שלוש");
+            System.out.println("4 - arbah - ארבע");
+            System.out.println("5 - hamesh - חמש");
+            System.out.println("6 - shesh - שש");
+            System.out.println("7 - sheva - שבע");
+			System.out.println("8 - shmone - שמונה");
+            System.out.println("9 - teisha - תשע");
+            System.out.println("10 - eser - עשר");
+            
+			
+// 2. Show 3 random numbers with translation and transcribtion
+
+    public static int numbersOneToTenWithTranscribtion(){
+        return (int) (Math.random() * 10) + 1;
+    }
+
+        for(int i = 0; i < 3; i++){
+            int x = numbersOneToTenWithTranscribtion();
+            if(x == 1){
+                System.out.println("1 - ahat - אחת");
+            } else if(x == 2) {
+                System.out.println("2 - shtaim - שתים");
+            } else if(x == 3) {
+                System.out.println("3 - shalosh - שלוש");
+            } else if(x == 4) {
+                System.out.println("4 - arbah - ארבע");
+            } else if(x == 5) {
+                System.out.println("5 - hamesh - חמש");
+            } else if(x == 6) {
+                System.out.println("6 - shesh - שש");
+            } else if(x == 7) {
+                System.out.println("7 - sheva - שבע");
+            } else if(x == 8) {
+                System.out.println("8 - shmone - שמונה");
+            } else if(x == 9) {
+                System.out.println("9 - teisha - תשע");
+            } else if(x == 10) {
+                System.out.println("10 - eser - עשר");
+            } 
+        }
+		
+		
+// 3. Show 3 random numbers with translation
+
+			public static int numbersOneToTenWithHebrew(){
+				return (int) (Math.random() * 10) + 1;
+			}
+
+        for(int i = 0; i < 3; i++){
+            int y = numbersOneToTenWithHebrew();
+            if(y == 1){
+                System.out.println("1 - אחת");
+            } else if(y == 2) {
+                System.out.println("2 - שתים");
+            } else if(y == 3) {
+                System.out.println("3 - שלוש");
+            } else if(y == 4) {
+                System.out.println("4 - ארבע");
+            } else if(y == 5) {
+                System.out.println("5 - חמש");
+            } else if(y == 6) {
+                System.out.println("6 - שש");
+            } else if(y == 7) {
+                System.out.println("7 - שבע");
+            } else if(y == 8) {
+                System.out.println("8 - שמונה");
+            } else if(y == 9) {
+                System.out.println("9 - תשע");
+            } else if(y == 10) {
+                System.out.println("10 - עשר");
+            } 
+        }		
+
+// 4. Show a random name of number and check a number
+
+			public static int numbersOneToTen(){
+				return (int) (Math.random() * 10) + 1;
+			}
+
+        for(int i = 0; i < 3; i++){
+            int y = numbersOneToTen();
+            if(y == 1){
+                System.out.println("אחת");
+				// 1
+            } else if(y == 2) {
+                System.out.println("שתים");
+				// 2				
+            } else if(y == 3) {
+                System.out.println("שלוש");
+				// 3				
+            } else if(y == 4) {
+                System.out.println("ארבע");
+				// 4
+            } else if(y == 5) {
+                System.out.println("חמש");
+				// 5
+            } else if(y == 6) {
+                System.out.println("שש");
+				// 6
+            } else if(y == 7) {
+                System.out.println("שבע");
+				// 7
+            } else if(y == 8) {
+                System.out.println("שמונה");
+				// 8
+            } else if(y == 9) {
+                System.out.println("תשע");
+				// 9
+            } else if(y == 10) {
+                System.out.println("עשר");
+				// 10
+            } 
+        }		
