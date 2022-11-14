@@ -15,7 +15,7 @@ public class Main {
         if (number == 1){showListOfNumbers.listOfNumbers();}
         else if (number == 2){showThreeNumbersWithTranscription.getThreeNumbersWithTranscription();}
         else if (number == 3){showThreeNumbersWithTranslation.getThreeNumbersWithHebrew();}
-        else if (number == 4){}
+        else if (number == 4){showRandomNumberAndCheck.getRandomNumber();}
         else {
             System.out.println("I don't have this variant. Enter the number from 1 to 4");
         }
