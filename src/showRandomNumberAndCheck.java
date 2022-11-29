@@ -39,7 +39,7 @@ public class showRandomNumberAndCheck {
 
 //    public static String checkNumber() {
 //        if (x.getRandomNumber == showRandomNumber.one && enteredNumber == x.getRandomNumber) {
-//            System.out.println("Well done!");
+//            System.out.println("Well done!" + "\uD83C\uDF88");
 //        } else {System.out.println("Oops. No. Try again");}
 //
 //        return null;
